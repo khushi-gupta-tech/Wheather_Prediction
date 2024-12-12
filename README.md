@@ -34,6 +34,7 @@ Precipitation level
 . Django REST Framework: For API integration .
 
 ->Machine Learning
+ . Logistic Regression
 
 Python with the following libraries:
 
