@@ -1,3 +1,4 @@
+
 # Wheather_Prediction_Project
 
 # Overview
@@ -69,3 +70,4 @@ Jupyter Notebook
 
 . Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R² Score.
 
+![WhatsApp Image 2024-12-12 at 21 35 24_c44b0b6b](https://github.com/user-attachments/assets/ca3b02cc-9a24-4866-a1d6-d79eb3f34ba2)
