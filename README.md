@@ -2,36 +2,40 @@
 # Wheather_Prediction_Project
 
 # Overview
+This project predicts weather conditions using machine learning models and integrates the predictions with a Django web application. Users can input parameters or view weather trends through an intuitive web interface. The system is designed to make weather forecasts accessible to a broader audience.
 
-This project focuses on predicting weather conditions using machine learning models. It leverages historical meteorological data to forecast parameters like temperature, wind speed, and precipitation. The application aims to provide accurate weather predictions to support decision-making in agriculture, transportation, and daily planning.
+#Features
 
-# Features
+.Predicts temperature,  wind speed, and rainfall likelihood.
 
-. Predicts temperature, humidity, wind speed, and rainfall likelihood.
+.Machine learning integration with Django for real-time predictions.
 
-. Uses advanced machine learning  Linear Regression algorithms
+.User-friendly web interface for inputting data and viewing results.
 
-. Supports visualizations of weather trends for better analysis.
-
-. Provides real-time weather prediction (integrated with APIs).
+.Interactive visualizations of historical weather trends and forecasts.
 
 # Dataset
+. Source: Link to Dataset (e.g., Kaggle, NOAA, or custom-collected data).
 
-Source: Link to Dataset (e.g., Kaggle, NOAA, or custom-collected data).
+. Description: The dataset includes the following fields:
 
-Description: The dataset contains historical weather data with fields like:
+Temperature
 
-. Temperature
+Wind speed
 
-. Wind speed
-
-. Precipitation level
+Precipitation level
 
 # Technologies Used
 
-Programming Language: Python
+-> Backend
 
-Libraries:
+. Django: Python-based web framework for the application.
+
+. Django REST Framework: For API integration .
+
+->Machine Learning
+
+Python with the following libraries:
 
 Pandas
 
@@ -40,34 +44,31 @@ NumPy
 Scikit-learn
 
 
-# Tools:
+-> Frontend
+HTML
 
-Jupyter Notebook
+CSS
 
-# Modeling Approach
+JavaScript
 
-1. Data Preprocessing
+Bootstrap for styling
 
-. Handle missing values.
 
-. Normalize numerical features.
+# Integration with Machine Learning Model
 
-. Convert categorical data (e.g., weather type) into numerical form.
+1. Train Your Model
 
-2. Exploratory Data Analysis (EDA)
+   . Prepare and save your machine learning model as a .pkl file:
+  
+2. Load the Model in Django
 
-. Analyze trends in temperature, humidity, and rainfall over time.
+    . Place the weather_model.pkl file in your Django project directory.
 
-. Visualize correlations between different features.
+3. Create Forms and Templates
 
-3. Model Training
 
-. Algorithms:
 
-  Linear Regression for temperature prediction.
 
-5. Evaluation
 
-. Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R² Score.
 
 ![WhatsApp Image 2024-12-12 at 21 35 24_c44b0b6b](https://github.com/user-attachments/assets/ca3b02cc-9a24-4866-a1d6-d79eb3f34ba2)
